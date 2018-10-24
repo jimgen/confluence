@@ -35,7 +35,7 @@ pipeline {
 		{
 			environment {
 				TASK_NAME = "atlasian-confluence-taskdef"
-				CLUSTER_NAME = "default"
+				CLUSTER_NAME = "jim-test"
 				SERVICE_NAME = "atlasian-confluence-service"
             }
 			steps { 
